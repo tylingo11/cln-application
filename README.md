@@ -30,18 +30,18 @@
 - ## Standalone
   - ### Get latest release
       ```
-        wget https://github.com/ElementsProject/cln-application/archive/refs/tags/v0.0.1.tar.gz
-        tar -xzf v0.0.1.tar.gz
+        wget https://github.com/ElementsProject/cln-application/archive/refs/tags/v0.0.4.tar.gz
+        tar -xzf v0.0.4.tar.gz
       ```
 
   - ### Dependency Installation
       ```
-          cd cln-application-0.0.1
+          cd cln-application-0.0.4
           npm install --omit=dev
       ```
 
   - ### Environment Variables
-      This application accepts & depeneds upon these variables to be passed through environment:
+      This application accepts & depends upon these variables to be passed through environment:
 
       ```
         - APP_CORE_LIGHTNING_IP: IP address of the core lightning container (required)
@@ -100,7 +100,7 @@
       - Run `start` script for starting your application's server at port `APP_CORE_LIGHTNING_PORT`
 
       ```
-        npm run start
+        npm start
       ```
 
 - ## Umbrel Store
